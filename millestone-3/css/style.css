@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #073b4c;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #1389b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-numbers{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box.Fizz{
+    background-color: #0ad6a1;
+}
+.box.Buzz{
+    background-color: #ffd165;
+}
+.box.FizzBuzz{
+    background-color: #f0466f;
+}
