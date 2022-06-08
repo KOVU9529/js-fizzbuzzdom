@@ -14,6 +14,8 @@ for (let i = 1; i <= 100; i++) {
         fizzOrBuzz='Buzz';
     } else if (i % 3 === 0) {
         fizzOrBuzz='Fizz';
+    } else {
+        fizzOrBuzz=i;
     }
-    console.log( i + ' ' + fizzOrBuzz);
+    console.log( fizzOrBuzz);
 }
