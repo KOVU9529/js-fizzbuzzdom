@@ -8,7 +8,6 @@ for (let i = 1; i <=100; i++) {
 
     let fizzOrBuzz;
 
-    const newLi =`<ul class="list"> ${i}</ul>`;
 
     /*CONDIZIONI*/
 
@@ -18,7 +17,11 @@ for (let i = 1; i <=100; i++) {
         fizzOrBuzz='Buzz'; 
     } else if (i % 3 ===0){
         fizzOrBuzz='Fizz'; 
+    } else {
+        fizzOrBuzz= i;
     }
 
-    mainList.innerHTML += newLi + fizzOrBuzz;
+    const newLi =`<ul class="list"> ${fizzOrBuzz}</ul>`;
+
+    mainList.innerHTML += newLi ;
 }
